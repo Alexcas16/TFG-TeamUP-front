@@ -1,0 +1,50 @@
+.baner-inferior {
+    position: fixed;
+    top: 10vh;
+    width: 99%;
+    height: 15vh;
+    background-color: #754A39;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.icono-banner-inferior {
+    font-size: 5em;
+}
+
+.icono-banner-Iderecho {
+    font-size: 3em;
+    margin-right: 15px;
+}
+
+.hbox {
+    display: ruby;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-left: 200px;
+    margin-right: -35px;
+    height: 97%;
+    width: 70%;
+}
+
+.hbox::-webkit-scrollbar {
+    height: 8px;
+}
+
+.hbox::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.hbox::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.icono-texto {
+    margin: 0 auto;
+    width: 7%;
+    font-size: 1.3em;
+}

@@ -1,0 +1,53 @@
+.div-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.h1-titulo {
+    position: absolute;
+    top: 16%;
+    left: 42%;
+}
+
+.form-campos {
+    display: grid;
+}
+
+.div-inputs > input {
+    background-color: transparent;
+
+    margin-left: 25px;
+
+    border-top-width: inherit;
+    border-right-width: inherit;
+    border-left-width: inherit;
+    border-bottom-width: thin;
+
+}
+
+.div-input-usuario {
+    position: relative;
+    left: 9%;
+}
+
+.div-inputs {
+    margin-bottom: 10px;
+}
+
+.button-login {
+    position: relative;
+    top: 77%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.register-label {
+    top: 160%;
+    position: relative;
+}
+
+
+

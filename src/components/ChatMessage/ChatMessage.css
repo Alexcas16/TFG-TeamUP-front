@@ -1,0 +1,91 @@
+.chatMessage-container {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #e9af98;
+    border-radius: 15px;
+    max-width: 37%;
+    height: auto;
+    max-height: 50%;
+    left: 19%;
+}
+
+.welcome {
+  background-color: transparent; /* Fondo transparente para mensajes de bienvenida */
+}
+
+.bye {
+  background-color: transparent; /* Fondo transparente para mensajes de despedida */
+}
+
+.welcome-message {
+  color: green;
+  font-family: bold;
+  font-size: large;
+  background: transparent;
+}
+
+.bye-message {
+  color: red;
+  font-family: bold;
+  font-size: large;
+  background: transparent;
+}
+
+.chatMessage-container.currentUser {
+  left: 53% !important;
+}
+
+.chatMessage-header {
+  display: flex;
+  align-items: center;
+}
+
+.chatMessage-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chatMessage-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.chatMessage-username {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.chatMessage-timestamp {
+  font-size: 0.8em;
+  color: #888;
+}
+
+.chatMessage-body {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+  word-wrap: break-word;
+  overflow-y: auto;
+  max-height: 200px;
+}
+
+.chatMessage-body::-webkit-scrollbar {
+  width: 10px;
+}
+
+.chatMessage-body::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+.chatMessage-body::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.chatMessage-body::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}

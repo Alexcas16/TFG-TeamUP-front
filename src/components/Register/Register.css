@@ -1,0 +1,65 @@
+.div-contenedor-reg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.h1-titulo-reg {
+    position: absolute;
+    top: 16%;
+    left: 40%;
+}
+
+.form-campos-reg {
+    display: grid;
+    padding-top: 5%;
+}
+
+.div-inputs-reg > input {
+    background-color: transparent;
+
+    margin-left: 25px;
+
+    border-top-width: inherit;
+    border-right-width: inherit;
+    border-left-width: inherit;
+    border-bottom-width: thin;
+
+}
+
+.div-inputs-reg > input {
+    background-color: transparent;
+
+    margin-left: 25px;
+
+    border-top-width: inherit;
+    border-right-width: inherit;
+    border-left-width: inherit;
+    border-bottom-width: thin;
+
+}
+
+.div-inputs-reg {
+    margin-bottom: 15px;
+}
+
+.input-email {
+    margin-left: 140px !important;
+}
+
+.input-user {
+    margin-left: 125px !important;
+}
+
+.input-pass {
+    margin-left: 99px !important;
+}
+
+.button-register {
+    position: relative;
+    top: 77%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}

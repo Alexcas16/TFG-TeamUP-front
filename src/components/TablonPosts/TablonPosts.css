@@ -1,0 +1,77 @@
+.div-contenedor-posts {
+    background-color: #6d3a25;
+    height: 75%;
+    width: 84.1%;
+    top: 25vh;
+    left: 0vh;
+    position: fixed;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    overflow-y: auto;
+}
+
+.div-contenedor-posts::-webkit-scrollbar {
+    width: 10px;
+}
+
+.div-contenedor-posts::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+}
+
+.div-contenedor-posts::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.div-contenedor-posts::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.floating-icon {
+    position: fixed;
+    bottom: 2%;
+    right: 18%;
+    background-color: #473021;
+    color: #a97d7d;
+    border-radius: 50%;
+    width: 3%;
+    height: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.floating-icon:hover {
+    background-color: #927561;
+}
+
+.texto-especial {
+    position: fixed;
+    top: 55%;
+    left: 35%;
+    font-size: larger;
+}
+
+.remove-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #795d4a;
+    border-color: #a53636;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #3b2020;
+}
+
+.remove-button:hover {
+    border-color: #df3333;
+    color: #df3333;
+    background-color: #927561;
+}

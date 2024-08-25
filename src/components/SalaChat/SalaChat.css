@@ -1,0 +1,128 @@
+.salaChat-container {
+    position: fixed;
+    width: 84%;
+    left: 0%;
+    top: 25%;
+    height: 75%;
+    background-color: #6d3a25;
+}
+
+.messages-container {
+    position: fixed;
+    width: 84%;
+    height: 65%;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #6d3a25;
+}
+
+.messages-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.messages-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+}
+
+.messages-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.messages-container::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.input-container {
+    left: 20%;
+    top: 80%;
+    height: 16%;
+    position: fixed;
+    width: 50%;
+    padding: 10px;
+    transition: height 0.2s;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.input-container.focused textarea {
+    top: 35%;
+    height: 90%;
+}
+
+.input-container textarea {
+    position: relative;
+    top: 94%;
+    padding: 10px;
+    left: 10%;
+    width: 70%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+    background-color: #b17b68;
+    resize: none;
+    overflow-y: auto;
+    line-height: 1.5;
+  }
+
+.input-container .send-button {
+    position: fixed;
+    top: 94%;
+    left: 60%;
+    padding: 10px;
+    background-color: transparent;
+    color: #181616;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.input-container .send-button:hover {
+    background-color: #927561;
+}
+
+.input-container .send-button svg {
+width: 30px;
+height: 30px;
+}
+
+.remove-chat-button {
+    z-index: 999;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #795d4a;
+    border-color: #a53636;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #3b2020;
+}
+
+.remove-chat-button:hover {
+    border-color: #df3333;
+    color: #df3333;
+    background-color: #927561;
+}
+
+.members-button {
+    z-index: 999;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #795d4a;
+    border-color: #2d8b97;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #31a4a5;
+}
+
+.members-button:hover {
+    background-color: #927561;
+}
+  
