@@ -1,25 +1,44 @@
-#### TFG-TeamUP-front
 
-  Este es el módulo front-end de la aplicación Team UP, desarrollado en React con Vite.
+# TeamUP - Front-End
 
-#### Instalar dependencias
+Este es el módulo **front-end** de la aplicación **TeamUP**, desarrollado en **React** utilizando **Vite**.
 
-  Las bibliotecas necesarias para su funcionamiento se encuentran en el archivo package.json. Para instalarlas hay que tener         previamente instalado npm, una vez instalado ejecutar el comando 'npm install'.
+## Instalación de dependencias
 
-#### Estructura del proyecto
+Para instalar las bibliotecas necesarias para el funcionamiento de la aplicación:
 
-  En el directorio /public se encuentran las imagenes y archivos estaticos del proyecto.
-  
-  En node_modules se descaragŕan las dependencias necesarias.
-  
-  El archivo index.html llama a la clase main.jsx para renderizar el html.
-  
-  El archivo vite.config.js define algunas propiedades para el despliege del cliente, en este caso lo mas importante es el puerto.
-  
-  En el directorio /src se encuentra main.jsx, donde se crea el DOM de React y se define la estructura de la aplicación, siendo App el componente que va a alojar el resto de componentes de la aplicación y toastContainer el componente para mostrar los toast.
-  
-  En el directorio /src/components se encuentras todos los componentes de la aplicacion en su respectivo directorio, junto con su archivo .css para los estilos. 
+1. Asegúrate de tener **npm** instalado en tu sistema.
+2. Ejecuta el siguiente comando para instalar las dependencias definidas en el archivo `package.json`:
 
-#### Ejecución
+   ```bash
+   npm install
+   ```
 
-  Para lanzar el cliente hay que ejecutar el comando 'npm run-script dev' y será accesible desde la ruta 'http://localhost:[puerto definido]'
+## Estructura del proyecto
+
+La estructura principal del proyecto está organizada de la siguiente manera:
+
+- **/public**: Contiene las imágenes y archivos estáticos del proyecto.
+- **/node_modules**: Aquí se descargan las dependencias necesarias para el funcionamiento del proyecto.
+- **index.html**: Archivo principal que llama a la clase `main.jsx` para renderizar el HTML de la aplicación.
+- **vite.config.js**: Archivo de configuración de Vite. Define algunas propiedades clave para el despliegue del cliente, como el puerto del servidor.
+- **/src**: Directorio principal del código fuente:
+  - `main.jsx`: Aquí se crea el DOM de React y se define la estructura inicial de la aplicación. El componente `App` alberga todos los demás componentes, mientras que `toastContainer` maneja las notificaciones **toast**.
+  - **/src/components**: Contiene los componentes de la aplicación, cada uno en su propio directorio, junto con su respectivo archivo `.css` para los estilos.
+
+## Ejecución del proyecto
+
+Para lanzar el cliente:
+
+1. Ejecuta el siguiente comando:
+
+   ```bash
+   npm run-script dev
+   ```
+
+2. La aplicación será accesible desde la siguiente URL: 
+
+   ```bash
+   http://localhost:[puerto definido]
+   ```
+
